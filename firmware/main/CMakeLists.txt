@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "caliper_math.cpp"
+        "driver/AS5600.cpp"
+    INCLUDE_DIRS
+        "."
+        "driver"
+    REQUIRES
+        ble_adipometer
+        json
+        esp_timer
+        nvs_flash
+        esp_driver_i2c
+)

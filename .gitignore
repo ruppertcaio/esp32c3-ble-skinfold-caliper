@@ -1,0 +1,16 @@
+# Build
+build/
+build-host/
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Archives
+*.zip
+*.rar
+# App-specific ignores live in app/.gitignore
