@@ -1,8 +1,8 @@
-# Adipômetro — app companheiro (Flutter/Android)
+# Adipômetro - app companheiro (Flutter/Android)
 
 App companheiro do adipômetro BLE (ESP32-C3). Conecta à pinça por Bluetooth Low Energy, solicita a medição de cada dobra cutânea e calcula a densidade corporal e o % de gordura.
 
-> **Protótipo educacional — não é dispositivo médico; os resultados não substituem avaliação profissional.**
+> **Protótipo educacional: não é dispositivo médico; os resultados não substituem avaliação profissional.**
 
 ## Fluxo de telas
 
@@ -22,9 +22,9 @@ App companheiro do adipômetro BLE (ESP32-C3). Conecta à pinça por Bluetooth L
 
 Comandos JSON enviados pelo app:
 
-- `{"cmd":"medir","dobra":"<nome_normalizado>"}` — o nome é minúsculo, sem acentos, espaços viram `_` (ex.: `Axilar Média` → `axilar_media`).
-- `{"cmd":"tare"}` — calibra e grava o zero da pinça.
-- `{"cmd":"status"}` — estado da calibração.
+- `{"cmd":"medir","dobra":"<nome_normalizado>"}`: o nome é minúsculo, sem acentos, espaços viram `_` (ex.: `Axilar Média` → `axilar_media`).
+- `{"cmd":"tare"}`: calibra e grava o zero da pinça.
+- `{"cmd":"status"}`: estado da calibração.
 - `{"cmd":"ping"}`
 
 As respostas chegam como JSON pela característica de notify (campo `mm` com a medida).

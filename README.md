@@ -137,7 +137,7 @@ O CI (`.github/workflows/ci.yml`) roda build do firmware, testes em host e `flut
 
 ## Resultados
 
-Exatidão — *a preencher após ensaio*:
+Exatidão: *a preencher após ensaio*:
 
 | Abertura real (paquímetro) [mm] | Medida [mm] | Erro [mm] |
 |---|---|---|
